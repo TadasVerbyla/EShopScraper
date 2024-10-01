@@ -17,3 +17,4 @@ C:\Users\tadas\Desktop\EShopScraper\WebScraper\obj\Debug\net8.0\refint\EShopScra
 C:\Users\tadas\Desktop\EShopScraper\WebScraper\obj\Debug\net8.0\EShopScraper.pdb
 C:\Users\tadas\Desktop\EShopScraper\WebScraper\obj\Debug\net8.0\EShopScraper.genruntimeconfig.cache
 C:\Users\tadas\Desktop\EShopScraper\WebScraper\obj\Debug\net8.0\ref\EShopScraper.dll
+C:\Users\tadas\Desktop\EShopScraper\WebScraper\bin\Debug\net8.0\Newtonsoft.Json.dll
