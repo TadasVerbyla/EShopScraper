@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tadas\\Desktop\\EShopScraper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\WebScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\WebScraper.csproj|solutionrelative:webscraper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\services\\scrapingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\services\\scrapingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\pythonsource\\scraper.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\pythonsource\\scraper.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\pythonbinaries\\scraper.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\pythonbinaries\\scraper.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\helpers\\pythoncaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\helpers\\pythoncaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScrapingService.cs",
+              "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Services\\ScrapingService.cs",
+              "RelativeDocumentMoniker": "WebScraper\\Services\\ScrapingService.cs",
+              "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Services\\ScrapingService.cs",
+              "RelativeToolTip": "WebScraper\\Services\\ScrapingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T10:34:09.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "scraper.py",
+              "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\PythonSource\\scraper.py",
+              "RelativeDocumentMoniker": "WebScraper\\PythonSource\\scraper.py",
+              "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\PythonSource\\scraper.py",
+              "RelativeToolTip": "WebScraper\\PythonSource\\scraper.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-10-01T10:34:07.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "scraper.exe",
+              "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\PythonBinaries\\scraper.exe",
+              "RelativeDocumentMoniker": "WebScraper\\PythonBinaries\\scraper.exe",
+              "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\PythonBinaries\\scraper.exe",
+              "RelativeToolTip": "WebScraper\\PythonBinaries\\scraper.exe",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000165|",
+              "WhenOpened": "2024-10-01T10:34:04.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PythonCaller.cs",
+              "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Helpers\\PythonCaller.cs",
+              "RelativeDocumentMoniker": "WebScraper\\Helpers\\PythonCaller.cs",
+              "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Helpers\\PythonCaller.cs",
+              "RelativeToolTip": "WebScraper\\Helpers\\PythonCaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T10:33:54.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Program.cs",
+              "RelativeDocumentMoniker": "WebScraper\\Program.cs",
+              "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Program.cs",
+              "RelativeToolTip": "WebScraper\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T10:33:32.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
