@@ -12,7 +12,7 @@ namespace EShopScraper.Models
         public string? BrandName { get; set; }
         public required decimal Price { get; set; }
         public decimal? Discount { get; set; }
-        public List<string>? Ratings { get; set; }
+        public string? Ratings { get; set; }
         public required string Description { get; set; }
         public List<string>? BulletPoints { get; set; }
         public Attributes? Attributes { get; set; }
