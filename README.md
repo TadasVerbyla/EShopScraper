@@ -11,23 +11,14 @@ Project implementing an API for scraping data from Macys webstore item pages.
 ### Example response JSON
 <code>{
   "name": "string",
-  "images": [
-    "string"
-  ],
+  "images": ["string"],
   "brandName": "string",
   "price": 0,
   "discount": 0,
   "ratings": "string",
   "description": "string",
-  "bulletPoints": [
-    "string"
-  ],
+  "bulletPoints": ["string"],
   "attributes": {
-    "colors": [
-      "string"
-    ],
-    "sizes": [
-      "string"
-    ]
-  }
-}</code>
+    "colors": ["string"],
+    "sizes": ["string"]
+  }}</code>
