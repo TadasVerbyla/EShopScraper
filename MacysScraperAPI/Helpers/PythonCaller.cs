@@ -2,6 +2,7 @@
 
 namespace MacysScrapperAPI.Helpers
 {
+    // Helper class used for calling python scripts and reading their return values
     class PythonCaller
     {
         public dynamic RunScraper(string url)
@@ -24,6 +25,7 @@ namespace MacysScrapperAPI.Helpers
             }
         }
 
+        // Method to dynamically find the path to main project directory during execution
         private string GetDirectory()
         {
             var currentDirectory = AppContext.BaseDirectory;

@@ -1,6 +1,8 @@
 import requests
 import argparse
 
+# Scraper script that is used instead of .NET utils as it can bypass 403 error
+
 def main(args):
 
     URL = args.url

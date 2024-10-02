@@ -1,5 +1,6 @@
 ﻿namespace MacysScrapperAPI.Models
 {
+    // Model class for the items found in the scraped stores web page
     public class ShopItem
     {
         public required string Name { get; set; }

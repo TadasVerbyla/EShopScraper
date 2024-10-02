@@ -8,17 +8,20 @@ namespace MacysScrapperAPI.Services
 {
     internal static class ScrapingService
     {
+        // Service implementing the retrieval of needed data from the given webpage URl
         public static async Task<ShopItem> GetInfo(string url)
         {
+            // Python script is called to scrape the html of the given URL, bypassing 403 error
             IDocument document = await ScrapeHtml(url);
             if (document == null)
             {
                 throw new ArgumentNullException("Failed to scrape HTML");
             }
           
+            // ShopItem is created, finding value of each of its fields via a dedicated method
             ShopItem shopItem = new ShopItem()
             {
-                Name =FindName(document),
+                Name = FindName(document),
                 Images = FindImages(document),
                 BrandName = FindBrandName(document),
                 Price = FindPrice(document),
@@ -34,6 +37,7 @@ namespace MacysScrapperAPI.Services
 
         private static string FindName(IDocument document)
         {
+            // CSS selectors are used to find specific elements, hardcoded locations or ID's are avoided, as they might change in the future
             var nameSpan = document.QuerySelector(".product-title span[itemprop=\"name\"]");
             if (nameSpan != null)
             {
@@ -46,6 +50,7 @@ namespace MacysScrapperAPI.Services
         {
             var images = new List<string>();
 
+            // Attempts to select images from the side-gallery, if it exists or can be found
             var altImages = document.QuerySelectorAll(".alt-image-container img");
             if (altImages.Length > 0)
             {
@@ -53,9 +58,10 @@ namespace MacysScrapperAPI.Services
                 {
                     var image = altImage.GetAttribute("src");
                     if (image != null) images.Add(image);
-                    else throw new ArgumentNullException();
+                    else throw new ArgumentNullException("src attribute not found");
                 }
             }
+            // Otherwise selects only the main image of the item
             else
             {
                 var mainImage = document.QuerySelector(".stylitics-shop-similar");
@@ -63,9 +69,9 @@ namespace MacysScrapperAPI.Services
                 {
                     var image = mainImage.GetAttribute("src");
                     if (image != null) images.Add(image);
-                    else throw new ArgumentNullException();
+                    else throw new ArgumentNullException("src attribute not found");
                 }
-                else throw new ArgumentNullException();
+                else throw new ArgumentNullException("Main image element not found");
             }
             return images;
         }
@@ -84,6 +90,7 @@ namespace MacysScrapperAPI.Services
             if (priceElement != null)
             {
                 var priceText = priceElement.TextContent;
+                // Price text contains currency symbol, which is removed via regex
                 return Convert.ToDecimal(Regex.Match(priceText, @"\d+(\.\d{1,2})?").Value);
             }
             throw new ArgumentNullException("Price wrapper not found");
@@ -105,7 +112,7 @@ namespace MacysScrapperAPI.Services
             {
                 var ratings = ratingDiv.GetAttribute("aria-label");
                 if (ratings != null) { return ratings; }
-                else { throw new ArgumentNullException(); }
+                else { throw new ArgumentNullException("Rating attribute not found"); }
             }
             return "";
         }
@@ -141,8 +148,9 @@ namespace MacysScrapperAPI.Services
             foreach (var swatch in document.QuerySelectorAll(".colors li label input"))
             {
                 var color = swatch.GetAttribute("aria-label");
+                // Color attributes are preceded by "Color: ", which is trimmed
                 if (color != null) { attributes.Colors.Add(color.Replace("Color: ", "").Trim()); }
-                else { throw new ArgumentNullException(); }
+                else { throw new ArgumentNullException("Color atttribute not found"); }
             }
             return attributes;
         }

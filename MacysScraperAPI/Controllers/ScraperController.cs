@@ -8,6 +8,7 @@ namespace MacysScrapperAPI.Controllers
     [Route("api/[controller]")]
     public class ScraperController : ControllerBase
     {
+        // API endpoint to retrieve data about Macys store items, requiring item URL and returning a serialized json of ShopItem model
         [HttpPost]
         public async Task<ActionResult<ShopItem>> GetItemInfo([FromBody] string url)
         {
