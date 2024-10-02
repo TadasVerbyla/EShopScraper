@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EShopScraper.Models
 {
-    internal class ShopItem
+    public class ShopItem
     {
         public required string Name { get; set; }
         public required List<string> Images { get; set; }
