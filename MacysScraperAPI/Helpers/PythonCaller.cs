@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Reflection;
 
 namespace MacysScrapperAPI.Helpers
 {
@@ -7,9 +8,11 @@ namespace MacysScrapperAPI.Helpers
     {
         public dynamic RunScraper(string url)
         {
+
+            string exePath = ExtractExe("MacysScraperAPI.PythonBinaries.scraper.exe");
             ProcessStartInfo start = new ProcessStartInfo
             {
-                FileName = GetDirectory() + @"/PythonBinaries/scraper.exe",
+                FileName = exePath,
                 Arguments = $"--url {url}",
                 UseShellExecute = false,
                 RedirectStandardOutput = true,
@@ -25,11 +28,24 @@ namespace MacysScrapperAPI.Helpers
             }
         }
 
-        // Method to dynamically find the path to main project directory during execution
-        private string GetDirectory()
+        private string ExtractExe(string exeName)
         {
-            var currentDirectory = AppContext.BaseDirectory;
-            return Directory.GetParent(currentDirectory).Parent.Parent.Parent.FullName;
+            string tempPath = Path.Combine(Path.GetTempPath(), "scraper.exe");
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            using (Stream resourceStream = assembly.GetManifestResourceStream(exeName))
+            {
+                if (resourceStream == null)
+                {
+                    throw new Exception("scraper.exe resource not found.");
+                }
+
+                using (FileStream fileStream = new FileStream(tempPath, FileMode.Create, FileAccess.Write))
+                {
+                    resourceStream.CopyTo(fileStream);
+                }
+            }
+
+            return tempPath;
         }
     }
 }
