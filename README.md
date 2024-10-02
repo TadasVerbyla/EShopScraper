@@ -1,2 +1,2 @@
-# EShopScraper
-Project implementing an API for scraping info of an e-shop catalogue item based on provided URL
+# MacysScrapperAPI
+Project implementing an API for scraping data from Macys webstore item pages. 
