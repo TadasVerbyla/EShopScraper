@@ -8,8 +8,8 @@ Project implementing an API for scraping data from Macys webstore item pages.
   -H 'accept: text/plain' \
   -H 'Content-Type: application/json' \
   -d '[url]'
-### Example response
-{
+### Example response JSON
+<code>{
   "name": "string",
   "images": [
     "string"
@@ -30,4 +30,4 @@ Project implementing an API for scraping data from Macys webstore item pages.
       "string"
     ]
   }
-}
+}</code>
