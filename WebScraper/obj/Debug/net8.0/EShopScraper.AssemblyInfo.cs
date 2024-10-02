@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EShopScraper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b51b2df0b87d48d0db9d3b3c25c1501fcacac12d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+943ea72a21e33cf8ab29dfbb70827c3ee942e5a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("EShopScraper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EShopScraper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

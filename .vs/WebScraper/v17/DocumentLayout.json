@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\tadas\\Desktop\\EShopScraper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\WebScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\WebScraper.csproj|solutionrelative:webscraper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\eshopscraper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\eshopscraper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\controllers\\scrapercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\controllers\\scrapercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\services\\scrapingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\services\\scrapingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\helpers\\pythoncaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +27,12 @@
       "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\pythonsource\\scraper.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\services\\scrapingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\services\\scrapingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\models\\shopitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\models\\shopitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\pythonbinaries\\scraper.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\pythonbinaries\\scraper.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|c:\\users\\tadas\\desktop\\eshopscraper\\webscraper\\models\\attributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26885606-61DC-4368-843F-5C876DE60608}|WebScraper\\EShopScraper.csproj|solutionrelative:webscraper\\models\\attributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +42,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EShopScraper",
+              "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\EShopScraper.csproj",
+              "RelativeDocumentMoniker": "WebScraper\\EShopScraper.csproj",
+              "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\EShopScraper.csproj",
+              "RelativeToolTip": "WebScraper\\EShopScraper.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-02T07:24:14.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScraperController.cs",
+              "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Controllers\\ScraperController.cs",
+              "RelativeDocumentMoniker": "WebScraper\\Controllers\\ScraperController.cs",
+              "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Controllers\\ScraperController.cs",
+              "RelativeToolTip": "WebScraper\\Controllers\\ScraperController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:18:47.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Attributes.cs",
+              "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Models\\Attributes.cs",
+              "RelativeDocumentMoniker": "WebScraper\\Models\\Attributes.cs",
+              "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Models\\Attributes.cs",
+              "RelativeToolTip": "WebScraper\\Models\\Attributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T17:30:30.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShopItem.cs",
+              "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Models\\ShopItem.cs",
+              "RelativeDocumentMoniker": "WebScraper\\Models\\ShopItem.cs",
+              "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Models\\ShopItem.cs",
+              "RelativeToolTip": "WebScraper\\Models\\ShopItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:10:03.029Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -40,20 +104,20 @@
               "RelativeDocumentMoniker": "WebScraper\\Services\\ScrapingService.cs",
               "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Services\\ScrapingService.cs",
               "RelativeToolTip": "WebScraper\\Services\\ScrapingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T10:34:09.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "scraper.py",
               "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\PythonSource\\scraper.py",
               "RelativeDocumentMoniker": "WebScraper\\PythonSource\\scraper.py",
               "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\PythonSource\\scraper.py",
               "RelativeToolTip": "WebScraper\\PythonSource\\scraper.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-10-01T10:34:07.106Z",
               "EditorCaption": ""
@@ -61,23 +125,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "scraper.exe",
-              "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\PythonBinaries\\scraper.exe",
-              "RelativeDocumentMoniker": "WebScraper\\PythonBinaries\\scraper.exe",
-              "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\PythonBinaries\\scraper.exe",
-              "RelativeToolTip": "WebScraper\\PythonBinaries\\scraper.exe",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000165|",
-              "WhenOpened": "2024-10-01T10:34:04.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "PythonCaller.cs",
               "DocumentMoniker": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Helpers\\PythonCaller.cs",
               "RelativeDocumentMoniker": "WebScraper\\Helpers\\PythonCaller.cs",
               "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Helpers\\PythonCaller.cs",
               "RelativeToolTip": "WebScraper\\Helpers\\PythonCaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T10:33:54.599Z",
               "EditorCaption": ""
@@ -90,7 +143,7 @@
               "RelativeDocumentMoniker": "WebScraper\\Program.cs",
               "ToolTip": "C:\\Users\\tadas\\Desktop\\EShopScraper\\WebScraper\\Program.cs",
               "RelativeToolTip": "WebScraper\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T10:33:32.202Z",
               "EditorCaption": ""
