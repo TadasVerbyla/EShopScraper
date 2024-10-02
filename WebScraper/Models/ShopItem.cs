@@ -8,6 +8,7 @@ namespace EShopScraper.Models
 {
     internal class ShopItem
     {
+        public required string Name { get; set; }
         public required List<string> Images { get; set; }
         public string? BrandName { get; set; }
         public required decimal Price { get; set; }
